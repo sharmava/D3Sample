@@ -1,0 +1,24 @@
+{
+  "name": "root", "y" : 0,
+  "children": [
+  {
+    "name": "parent A", "y" :10,
+    "children": [
+      {"name": "child A1", "y" : 50,
+        "children" :[  
+      	{"name": "child A2", "y" : 80},
+      	{"name": "child A3", "y" : 70}
+    ]
+      },
+      {"name": "child A2", "y" : 40},
+      {"name": "child A3", "y" : 50}
+    ]
+  },{
+    "name": "parent B", "y" : 50,
+    "children": [
+      {"name": "child B1", "y" : 200},
+      {"name": "child B2", "y" : 200}
+    ]
+  }
+  ]
+}
